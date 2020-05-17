@@ -187,7 +187,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+    background: #154360  url(../images/profile.jpg) no-repeat top center;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -203,13 +203,13 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #ffffff;
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
+   width: 150px;
+   height: 150px;
+   padding: 10px;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -358,15 +358,15 @@ ul#nav li.current a { color: #F06000; }
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 100%;  }
 }
 @-moz-keyframes illustrator {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 100%;  }
 }
 @-moz-keyframes wordpress {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 100%;  }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
